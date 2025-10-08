@@ -11,7 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-/* --- Encabezado --- */
 .encabezado {
   background: linear-gradient(135deg, #ffb58a, #f57d4b);
   color: white;
@@ -74,9 +73,11 @@ nav a:hover {
   transform: scale(1.1);
 }
 
-/* --- Hero --- */
 .hero {
-  background: url('Captura de pantalla 2025-10-02 074258.png') center/cover no-repeat;
+  background: url('fondo.jpg'); 
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
   height: 85vh;
   display: flex;
   align-items: center;
@@ -132,7 +133,6 @@ nav a:hover {
   background: linear-gradient(45deg, #ffe0b3, #ffc096);
 }
 
-/* --- Productos --- */
 .productos {
   padding: 80px 20px;
   text-align: center;
@@ -243,7 +243,6 @@ form button:hover {
   background: linear-gradient(45deg, #ffb58a, #d2691e);
 }
 
-/* --- Footer --- */
 footer {
   background: #d2691e;
   color: white;
@@ -253,7 +252,6 @@ footer {
   letter-spacing: 1px;
 }
 
-/* --- Responsive --- */
 @media (max-width: 768px) {
   .galletas {
     flex-direction: column;
@@ -271,4 +269,5 @@ footer {
   .card {
     width: 90%;
   }
+
 }
